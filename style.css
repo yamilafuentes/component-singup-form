@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(./images/bg-intro-desktop.png);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.hero {
+	display: flex;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+}
+
+.left-container {
+  padding: 5%;
+  text-align: center;
+}
+
+.left-container p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sub-title {
+  padding: 5% 59px 5% 45px;
+  font-size: 0.99rem;
+  border-radius: 0.7rem;
+  line-height: 1.7;
+  font-weight: 400;
+  background-color: hsl(248, 32%, 49%); 
+  box-shadow: 0px 7px 0px 0px hsl(249deg 10% 26% / 23%);
+}
+
+.sub-title span {
+  font-weight: 700;
+}
+
+.form {
+  padding: 1.25rem;
+  border-radius: 0.7rem;
+  color: hsl(244, 24%, 88%);
+  background-color: #ffffff;
+  box-shadow: 0px 7px 0px 0px hsl(249deg 10% 26% / 23%);
+
+}
+
+.text                                                                                                                                                                                                                                                                                                                                                 {
+  width: 90%;
+  padding: 4% 0 4% 6%;
+  margin: 0.5rem 0;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid hsl(246deg 25% 77% / 57%);
+}
+
+.submit {
+  width: 90%;
+  max-width: 100%;
+  margin: 0.9rem 0 0.9rem 0;
+  padding: 1.5rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.7rem;
+  border: solid;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: hsl(154, 59%, 51%);
+}
+
+.form p {
+  margin: 0 10% 0 10%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: hsl(246deg 25% 77% / 69%);
+}
+
+.form a {
+  font-weight: 600;
+  text-decoration: none; 
+  color: hsl(0, 100%, 74%);
+}
+
+.attribution {
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 30rem;
+  text-decoration: none;
+}
+
+@media (min-width: 650px) {
+
+  .flex-container {
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hero > div  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
+    text-align: left;
+  }
+
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .left-container p {
+    padding: 0 6% 0 0;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sub-title {
+    padding: 3% 0 3% 0;
+    width: 70%;
+    max-width: 100%;
+    border-radius: 0.7rem;
+    line-height: 1.7;
+    margin-bottom: 1.8rem;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0px 7px 0px 0px hsl(249deg 10% 26% / 40%);
+  }
+
+  .form {
+    padding: 0;
+    padding-top: 5%;
+    width: 70%;
+    height: 82%;
+    max-height: 100%;
+  }
+
+}

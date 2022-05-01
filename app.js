@@ -1,0 +1,1 @@
+const greetings = () => alert(`Hi ${document.getElementById('first_name').value}`)
