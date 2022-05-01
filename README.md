@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Link
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Component-singup-form](https://yamilafuentes.github.io/component-singup-form/)
 
 
 ### Built with
